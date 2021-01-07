@@ -1,4 +1,4 @@
-package com.natwest.openapi.optimusprime;
+package com.natxxgrp.openapi.optimusprime;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -14,7 +14,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 @SpringBootTest
 class ApplicationTest {
 
-    //This test ensures 100% code coverage
+    /**
+     *Test ensures 100% code coverage
+     */
+
     @Test
     public void ccontextShouldNotLoadWhenPropertiesIncorrect() {
         Application.main(new String[] {});

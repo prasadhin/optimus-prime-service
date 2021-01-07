@@ -1,12 +1,16 @@
-package com.natwest.openapi.optimusprime.processor;
+package com.natxxgrp.openapi.optimusprime.processor;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Sieve of Eratosthenes Algorithm to check if a number is Prime
+ * -------------------------------------------------------------
+ */
+
 public class PrimeProcessorEratosthenesImpl implements PrimeProcessor {
     // Form list of prime numbers from 2 to the nth number given
-    // Algorithm - Sieve of Eratosthenes
     @Override
     public  List<Integer> getPrimes(int count) {
         // mark all elements as "true" in the array, indexed from 0 to n.

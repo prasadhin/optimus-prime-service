@@ -1,10 +1,13 @@
-package com.natwest.openapi.optimusprime.model;
+package com.natxxgrp.openapi.optimusprime.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.List;
 import javax.xml.bind.annotation.XmlRootElement;
 
+/**
+ * Model for API response data
+ */
 @XmlRootElement
 public class PrimeResponse {
 

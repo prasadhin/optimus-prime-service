@@ -6,10 +6,10 @@
 * Full integration tests available
 * Cached Responses utilising Spring boot cache, to improve performance
 * Supports both JSON and XML response using jackson-dataformat-xml package
-* User can utilise any one of the algorithm to calculate prime number using
+* User can utilise any one of the below mentioned algorithm to calculate prime number using
  an optional request parameter
 
-### Tech stack / Requirements
+### Tech stack
 * Spring Boot
 * JDK 8
 * Build Tool Used: Maven
@@ -18,6 +18,14 @@
 ## Application run, test commands
 * mvn spring-boot:run
 * mvn clean test
+
+## Service is deployed in container shipped in Heroku cloud.
+Any code commit to master branch will trigger the build and deployment.
+
+* Live RESTfull API endpoints for invoking the service.
+* https://optimus-prime-service.herokuapp.com/primes/10?algorithm=Eratosthenes
+* https://optimus-prime-service.herokuapp.com/primes/15?algorithm=Basic
+* https://optimus-prime-service.herokuapp.com/primes/17
 
 ###### JSON Response
 

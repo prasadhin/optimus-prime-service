@@ -1,7 +1,7 @@
-package com.natwest.openapi.optimusprime.controller;
+package com.natxxgrp.openapi.optimusprime.controller;
 
-import com.natwest.openapi.optimusprime.model.PrimeResponse;
-import com.natwest.openapi.optimusprime.service.PrimeCalculator;
+import com.natxxgrp.openapi.optimusprime.model.PrimeResponse;
+import com.natxxgrp.openapi.optimusprime.service.PrimeCalculator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.natwest.openapi.optimusprime;
+package com.natxxgrp.openapi.optimusprime;
 
 
 import org.springframework.boot.SpringApplication;

@@ -1,6 +1,6 @@
-package com.natwest.openapi.optimusprime.service;
+package com.natxxgrp.openapi.optimusprime.service;
 
-import com.natwest.openapi.optimusprime.model.PrimeResponse;
+import com.natxxgrp.openapi.optimusprime.model.PrimeResponse;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

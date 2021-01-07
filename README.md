@@ -26,6 +26,7 @@ Any code commit to master branch will trigger the build and deployment.
 * https://optimus-prime-service.herokuapp.com/primes/10?algorithm=Eratosthenes
 * https://optimus-prime-service.herokuapp.com/primes/15?algorithm=Basic
 * https://optimus-prime-service.herokuapp.com/primes/17
+* https://optimus-prime-service.herokuapp.com/primes/-17
 
 ###### JSON Response
 
@@ -41,6 +42,12 @@ Request `curl -X GET -H "Accept: application/xml" http://localhost:8080/primes/7
 Response `<PrimesResponse><Initial>7</Initial><Primes><Primes>2</Primes><Primes>3</Primes><Primes>5</Primes><Primes>7</Primes></Primes></PrimesResponse>`
 
 
+###### Negative number input and exception error response
+
+Request `curl -X GET -H "Accept: application/xml" http://localhost:8080/primes/-20`\
+
+Response `<ApiErrorMessage><status>UNPROCESSABLE_ENTITY</status><message>Invalid input number, cannot be less than 2</message><timestamp>07-01-2021 03:34:23</timestamp></ApiErrorMessage>'
+
 ## Algorithm's Used
-* Seive Eratosthenes Method
-* Basic n/2 factorail method
+* Sieve Eratosthenes Method
+* Basic n/2 factor method

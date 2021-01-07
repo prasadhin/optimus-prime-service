@@ -8,11 +8,11 @@
 		<version>2.4.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.natwest.openapi</groupId>
-	<artifactId>optimusprime-service</artifactId>
+	<groupId>com.natxxxgrp.openapi</groupId>
+	<artifactId>optimus-prime-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
-	<description>Demo project for Spring Boot</description>
+	<name>optimus-prime-service</name>
+	<description>REST Api Service for providing prime numbers.</description>
 
 	<properties>
 		<java.version>8</java.version>

@@ -46,7 +46,7 @@ Response `<PrimesResponse><Initial>7</Initial><Primes><Primes>2</Primes><Primes>
 
 Request `curl -X GET -H "Accept: application/xml" http://localhost:8080/primes/-20`\
 
-Response `<ApiErrorMessage><status>UNPROCESSABLE_ENTITY</status><message>Invalid input number, cannot be less than 2</message><timestamp>07-01-2021 03:34:23</timestamp></ApiErrorMessage>'
+Response `<ApiErrorMessage><status>UNPROCESSABLE_ENTITY</status><message>Invalid input number, cannot be less than 2</message><timestamp>07-01-2021 03:34:23</timestamp></ApiErrorMessage>`
 
 ## Algorithm's Used
 * Sieve Eratosthenes Method
